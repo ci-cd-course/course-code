@@ -24,3 +24,4 @@ jobs:
         run: echo "::add-mask::Secret string"
       - name: Echo a secret 
         run: echo "Secret string"
+        
