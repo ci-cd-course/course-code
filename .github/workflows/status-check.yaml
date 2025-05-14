@@ -16,7 +16,7 @@ jobs:
         run: echo 'Runs on Success'
       - name: Always Runs
         if: always()
-        run: ehco 'Always Runs'
+        run: echo 'Always Runs'
       - name: Runs When Cancelled
         if: cancelled()
         run: echo 'Runs on Cancelled'
